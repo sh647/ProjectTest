@@ -9,4 +9,14 @@ public class WelcomeController {
 	{
 		return "welcome Controller";
 	}
+
+	@GetMapping(value="/api22")
+	public String message2()
+	{
+		return "welcome Controller22";
+	}
+
+
 }
+
+
